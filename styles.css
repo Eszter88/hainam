@@ -4,3 +4,37 @@ body {
   box-sizing: border-box;
   background-color: beige;
 }
+
+.main_logo {
+  width: 200px; 
+  height: 200px;
+}
+
+.bistro_hero {
+  width: 400px; 
+  height: 300px;
+}
+
+.caphe_hero {
+  width: 400px; 
+  height: 300px;
+}
+
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 10rem 0 5rem;
+}
+.hero_img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.hero_img1_container, .hero_img2_container{
+  display: flex;
+  flex-direction: column;
+}
